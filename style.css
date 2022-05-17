@@ -18,13 +18,20 @@
     --color--c03-font: #dedede;
     --color--c02-font: #ededed;
     --color--c01-font: #F7F7F7;
-    --color--w-font: hsla(0, 0%, 100%, 1);  
+    --color--w-font: hsla(0, 0%, 100%, 1);    
+    
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Poppins' ;
+    font-family: 'Roboto' ;
 }
 
 ul {
@@ -37,13 +44,11 @@ a {
 
 
 .container {
-    width: 100%;
-    height: 96px;
-    background-color: var(--color--c12-background);
+    width: 100%;    
+    background-color: var(--color--c12-background);    
     display: flex;
-    padding: 32px 329px 32px 290px;
-    align-items: center;
-    
+    padding: 0px 220px 0px 290px;
+    align-items: center;    
 }
 
 .container .header {
@@ -65,11 +70,12 @@ a {
 }
 
 .container .headerMenu ul li {
-    padding: 0 20px;
+    padding: 0 40px;
 }
 
 .container .headerMenu ul li a h4{
     color: var(--color--w-font);
+    font-weight: 500;
     font-size: 18px;
 }
 
@@ -77,37 +83,41 @@ a {
 /*====================================================================*/
 
 .content {
-    width: 100%;    
-    height: 668px;
+    width: 100%;
     background-color: var(--color--c12-background);
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center;    
     
 }
 
 .content .contentLeft{
     width: 50%;
-    display: flex;
-    justify-content: center;
+    display: flex; 
+    justify-content: left;   
     flex-direction: column;    
-    padding:0 80px 0px 290px;       
+    padding:160px 30px 112px 290px;  
+     
 }
 
 .content .contentLeft h2{
     font-size: 64px;
+    font-weight: 600;
     color: var(--color--w-font);    
-    margin-bottom: 32px;
+    
 }
 
 .content .contentLeft p{
     font-size: 24px;
+    font-weight: 400;
     color: var(--color--c05-font);
+    margin-top: 32px;
     margin-bottom: 20px;
 }
 
 .content .contentLeft .btn{
     width: 240px;    
+    font-weight: 600;
     font-size: 18px;
     padding: 16px 32px;
     background: linear-gradient(180deg, #FFBF00 0%, #E69C0B 100%);
@@ -121,24 +131,26 @@ a {
 .content .contentRight{
     width: 50%;         
     display: flex;
-    justify-content: left;    
+    justify-content: left;  
+    align-items: center;  
+    position: relative; 
 }
 
-.content .contentRight img{
-    
-    position: relative;
-    bottom: -60px; 
-    border-radius: 5px;   
+.content .contentRight img{    
+    padding-top: 136px;
+    padding-left: 50px;
+    position: absolute;    
+    border-radius: 5px;       
 }
 
 /*====================================================================*/
 .section {
-    width: 100%;
-    height: 1166px;
+    width: 100%;   
     display: flex; 
-    flex-direction: column;   
+    flex-direction: column; 
+    margin-top: 246px;
+    margin-bottom: 200px;  
 }
-
 
 .section .center{
     width: 100%;
@@ -152,13 +164,6 @@ a {
     display: flex;
     justify-content: left;        
     padding:0 147px 40px 220px;
-}
-
-.section .center h2{
-    font-size: 64px;
-    color: var(--color--c11-font);
-    margin-top: 246px;
-    margin-bottom: 40px;
 }
 
 .section .center .sectionCard {
@@ -210,7 +215,7 @@ a {
     width: 50%;
     display: flex;
     flex-direction: column;
-    padding: 80px 80px 0px 240px;
+    padding: 80px 70px 0px 240px;
     
 }
 
@@ -218,6 +223,7 @@ a {
     font-size: 24px;
     color: var(--color--c05-font);
     padding: 0;   
+    
 }
 
 .sectionTec .column h3{    
@@ -227,15 +233,17 @@ a {
     padding-bottom: 32px;
 }
 
-.sectionTec .column h4{  
+.sectionTec .column .text1 {  
     font-size: 24px;  
-    color: var(--color--p1-font);
-    padding-bottom: 81px;
+    color: var(--color--p1-font);    
+    border-bottom: 6px solid var(--color--p1-font);
+    border-radius: 5px; 
+    border-bottom: 50%;   
 }
 
 .sectionTec .column p{    
     font-size: 18px;
-    color: var(--color--c05-font);
+    color: var(--color--c05-font);    
     padding-bottom: 20px;
 }
 
@@ -243,6 +251,7 @@ a {
     width: 100%;
     display: flex;
     flex-direction: row;
+    margin-top: 81px;
 }
 
 .sectionTec .column .centerModel h5{    
@@ -337,7 +346,7 @@ a {
 }
 
 .sectionBrief .briefRight {
-    width: 50%;
+    width: 100%;
     padding: 296px 75px 80px 140px;
     background-color: var(--color--p1-font);
 }
@@ -546,7 +555,7 @@ a {
 
 
 .footer{
-    width: 100vw;
+    width: 100%;
     height: 492px;
     background-color: var(--color--c12-background);
     display: flex;  

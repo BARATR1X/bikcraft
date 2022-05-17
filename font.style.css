@@ -1,0 +1,133 @@
+:root {
+    /*color*/
+    --color--p5-font: hsla(40, 100%, 10%, 1);
+    --color--p4-font: #664400;
+    --color--p3-font: #A66F00;
+    --color--p2-font: #E4A30B;
+    --color--p1-font: #FFBB00;
+    
+    --color--c12-background: hsla(0, 0%, 0%, 1);
+    --color--c11-font: #111111;
+    --color--c10-font: #2E2E2E;
+    --color--c09-font: #404040;
+    --color--c08-font: #595959;
+    --color--c07-font: #717171;
+    --color--c06-font: #C9C9C9;
+    --color--c05-font: #b2b2b2;
+    --color--c04-font: #CCCCCC;
+    --color--c03-font: #dedede;
+    --color--c02-font: #ededed;
+    --color--c01-font: #F7F7F7;
+    --color--w-font: hsla(0, 0%, 100%, 1);    
+    
+}
+
+.xxl1 {
+    font-size: 72px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.xxl2 {
+    font-size: 64px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.xxl2 {
+    font-size: 64px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.xl1 {
+    font-size: 40px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.xl2 {
+    font-size: 32px;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.l1 {
+    font-size: 36px;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.l2 {
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.f1lb{
+    font-size: 36px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.f2lb{
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.f1m {
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.f2m {
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.f1mb {
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.f2mb {
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.fo1m {
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.fo2m {
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.f1s {
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.f2s {
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.section .center h2{    
+    color: var(--color--c11-font);
+    border-top: 10px solid var(--color--p1-font);
+    border-bottom: 10px solid var(--color--p1-font);
+    border-radius: 5px;
+    
+}
