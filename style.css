@@ -131,13 +131,14 @@ a {
 .content .contentRight{
     width: 50%;         
     display: flex;
-    justify-content: left;  
-    align-items: center;  
+    justify-content: left; 
+    
     position: relative; 
 }
 
 .content .contentRight img{    
-    padding-top: 136px;
+    margin-top: -312px;
+    margin-top: -312px;
     padding-left: 50px;
     position: absolute;    
     border-radius: 5px;       
@@ -290,7 +291,7 @@ a {
     height: 712px;
     display: flex;
     flex-direction: column;
-    padding: 200px 94px 0px 200px;
+    padding: 200px 80px 0px 180px;
 }
 
 .sectionPartner .columnPartner{
@@ -301,7 +302,8 @@ a {
 
 .sectionPartner .columnPartner h2{
     font-size: 64px;
-    color: var(--color--c11-font);    
+    color: var(--color--c11-font);   
+    margin-left: 25px; 
 }
 
 .sectionPartner .cardPartner{
@@ -325,7 +327,7 @@ a {
     display: grid;
     grid-template-columns: repeat(autofit, minmax(200px, 1fr));
     column-gap: 3rem;
-    row-gap: 4rem;
+    row-gap: 5rem;
     align-items: center;    
     padding: 40px 60px;    
 }
@@ -343,11 +345,14 @@ a {
 .sectionBrief .columnBrief {
     width: 100%;
     display: flex;
+    justify-content: center;
 }
 
 .sectionBrief .briefRight {
     width: 100%;
-    padding: 296px 75px 80px 140px;
+    padding: 296px 75px 32px 144px;
+    align-items: center;
+    justify-content: center;
     background-color: var(--color--p1-font);
 }
 
@@ -355,6 +360,17 @@ a {
     color: var(--color--p5-font);
     font-size: 36px;
     padding-bottom: 32px;
+    
+}
+
+.sectionBrief .briefRight .img1{
+    margin-left: -50px;
+    position: absolute;
+}
+
+.sectionBrief .briefRight .img2{ 
+    padding-top: 20px;
+    position: absolute;
 }
 
 .sectionBrief .briefRight h5{
